@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Workbench - Shadman</title>
+    <style>
+        #content
+        {
+            height: 500px;
+            width: 100px;
+            background-color: rgb(223.213.223);
+            margin: auto;
+            padding: 25px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Shadman 12423187</h1>
+        <h2>Using innerHTML</h2>
+        <p id="Mydata1"> </p>
+        
+        <p>
+            <script>
+                let name = "Shadman";
+                document.getElementById("mydata1").innerHTML = "Test1";
+                document.getElementById("mydata2").innerHTML = "Test2";
+            </script>
+        </p>
+    </div>
+</body>
+</html>
