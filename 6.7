@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workbench Shadman</title>
+    <style>
+        #content {
+            height: 700px;
+            width: 1000px;
+            background-color: rgb(223, 213, 223);
+            margin: auto;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<script>
+    let myData1 = "I Love JavaScript";
+    let myData2 = new String("We Love JavaScript");
+    document.write(myData1 + " is a " + typeof(myData1) + "<br/>");
+    document.write(myData2 + " is an " + typeof(myData2));
+</script>
+
+<h4>JavaScript Objects</h4>
+<script>
+    let car = {
+        make: "Audi",
+        model: "A1",
+        Doors: 3,
+        Transmission: "Manual",
+        Style: "Crossover",
+    };
+    document.write(car.make + " " + car.model);
+    document.write("<br/>");
+    document.write(car.Transmission + " " + car.Style);
+</script>
+
+<h4>Nested JavaScript Objects</h4>
+<script>
+    let student = {
+        fName: "Shadman",
+        lName: "Khan",
+        age: 22,
+        address: {
+            No: 27,
+            Shi: "Beppu Shi",
+            Ken: "Oita",
+
+        },
+    };
+    document.write(student.fName);
+    document.write("<br/>");
+    document.write(student.address.No + " " + student.address.Shi);
+    document.write("<br/>");
+    document.write(student.address.Ken);
+</script>
+
+
+<script>
+    let myCity= ["FUkuoka", "Oita" , "Saga"];
+    document.write(myCity);
+
+    document.write("<h5>Pop</h5>");
+    let temp1 = myCity.pop
+</script>
+
+</html>
