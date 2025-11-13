@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workbench Shadman</title>
+    <style>
+        #content {
+            height: 700px;
+            width: 1000px;
+            background-color: rgb(223, 213, 223);
+            margin: auto;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<h3>Shad-12423187</h3>
+<h4>JavaScript Error Handling</h4>
+<p>Enter your Marks</p>
+<input id="marks" type="text">
+<button type="button" onclick="myFunction()">Check Marks</button>
+<p id="flag">data comes here</p>
+
+
+<body>
+    <div id="content">
+        <h4>Javascript arrays</h4>
+        <script>
+            document.write("<h4>array() Constructor/h4");
+                let myCity = new Arrays("FkK, OT, SAGA");
+                document.write(myCity+"<br/>");
+                document.write(myCity[0]+ "and" + myCity[2]);
+                document.write("<h4> Array Literal Syntax</h4>")
+                let myCity = ["FkK, OT, SAGA"];
+                document.write(ourCity + <"/br>");
+                document.write(ourCity(0)+ "and"+ ourCity[2]);
+        </script>
+    </div>
+</body>
+
+
+</html>
